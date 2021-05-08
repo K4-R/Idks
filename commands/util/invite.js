@@ -19,8 +19,8 @@ module.exports = class InviteCommand extends Command {
 
     async run(msg) {
         const embed = new MessageEmbed()
-            .setTitle('Invite')
-            .setDescription(`${this.client.util.embedURL('Invite', 'https://discord.com/api/oauth2/authorize?client_id=835708055739826187&permissions=8&scope=bot')}` )
+            .setTitle('Invite Me')
+            .setDescription(`<:Dot:838962583292739644> ${this.client.util.embedURL('Invite', 'https://discord.com/api/oauth2/authorize?client_id=835708055739826187&permissions=8&scope=bot')}` )
             .setFooter(msg.author.tag)
             .setTimestamp();
         msg.say(embed);
