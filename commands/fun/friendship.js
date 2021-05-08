@@ -51,7 +51,7 @@ module.exports = class FriendshipCommand extends Command {
             const firstAvatar = await loadImage(firstAvatarData.body);
             const secondAvatarData = await request.get(secondAvatarURL);
             const secondAvatar = await loadImage(secondAvatarData.body);
-            const base = await loadImage('https://cdn.discordapp.com/attachments/688763072864976906/706512440690606181/friendship1.png');
+            const base = await loadImage('https://cdn.discordapp.com/attachments/776372235329863681/840560205548748841/20210508_190601.png');
             const canvas = createCanvas(base.width, base.height);
             const ctx = canvas.getContext('2d');
             ctx.drawImage(firstAvatar, 70, 56, 400, 400);
