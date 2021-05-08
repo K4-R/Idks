@@ -27,7 +27,7 @@ module.exports = class HelpCommand extends Command {
         if (!command) {
             const pict = 'https://i.ya-webdesign.com/images/svg-gear-transparent-background-3.gif';
             const embed = new MessageEmbed()
-                .setAuthor('Nezumi Commands', pict)
+                .setAuthor('Agata Commands', pict)
                 .setColor('#cce7e8');
             let cmdCount = 0;
             for (const group of this.client.registry.groups.values()) {

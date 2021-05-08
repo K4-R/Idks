@@ -50,7 +50,7 @@ module.exports = class FeedbackCommand extends Command {
             .setTimestamp()
             .setThumbnail(message.guild.iconURL())
             .setFooter(this.client.user.username, this.client.user.avatarURL())
-            .setTitle('Report For Nezumi\'s Bot')
+            .setTitle('Report For Agata\'s Bot')
             .setDescription(stripIndents`
             ** Sender : ** ${message.author.username} ${message.author.id}
             ** From : ** ${message.guild.name}

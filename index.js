@@ -32,7 +32,7 @@ Structures.extend('Guild', Guild => {
 });
 const client = new Client({
     commandPrefix: prefix,
-    owner: '271576733168173057',
+    owner: '766869255517241395',
     invite: INVITE,
     disableMentions: 'everyone',
     disabledEvents: ['TYPING_START'],
