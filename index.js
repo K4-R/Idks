@@ -66,7 +66,7 @@ client.on('ready', async () =>{
     setInterval(async () => {
         client.user.setPresence({
             activity: {
-                name: `${client.guilds.cache.size} Servers`,
+                name: `${client.guilds.cache.size} Servers | agt.help`,
                 type: 'WATCHING',
                 url: 'https://www.twitch.tv/a',
             },

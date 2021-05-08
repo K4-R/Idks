@@ -20,7 +20,7 @@ module.exports = class InviteCommand extends Command {
     async run(msg) {
         const embed = new MessageEmbed()
             .setTitle('Invite / Vote')
-            .setDescription(`${this.client.util.embedURL('Invite Me', `${this.client.generateInvite(['ADMINISTRATOR'])}`)} | ${this.client.util.embedURL('Vote Me', 'https://top.gg/bot/686908676606263326/vote')} `)
+            .setDescription(`${this.client.util.embedURL('Invite Me', https://discord.com/api/oauth2/authorize?client_id=835708055739826187&permissions=8&scope=bot)| ${this.client.util.embedURL('Vote Me', 'https://top.gg/bot/686908676606263326/vote')} `)
             .setFooter(msg.author.tag)
             .setTimestamp();
         msg.say(embed);
