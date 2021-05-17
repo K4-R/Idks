@@ -77,11 +77,11 @@ client.on('ready', async () =>{
 
 
 client.on('guildCreate', guild => {
-    client.channels.cache.get('718436188100362280').send(`Nezumi : [💖] New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
+    client.channels.cache.get('718436188100362280').send(`Agata : [💖] New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
     console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
 });
 client.on('guildDelete', guild => {
-    client.channels.cache.get('718436188100362280').send(`Nezumi : [💔] I have been removed from: ${guild.name} (id: ${guild.id}) with ${guild.memberCount}`);
+    client.channels.cache.get('718436188100362280').send(`Agata : [💔] I have been removed from: ${guild.name} (id: ${guild.id}) with ${guild.memberCount}`);
     console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`); 
 
 
